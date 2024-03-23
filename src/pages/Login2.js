@@ -29,7 +29,7 @@ function Login() {
   return (
     <div>
       <div><Nav2/></div>
-      <div className="flex justify-center items-center mt-40">
+      <div className="flex justify-center items-center mt-30">
         <div className="flex flex-col md:flex-row w-full md:max-w-3xl bg-white text-black rounded-xl shadow-lg overflow-hidden">
           <div className="w-full md:w-1/2 p-8 md:p-12">
             <img src={pet2} alt="Pet" className="w-full h-auto object-cover" />
