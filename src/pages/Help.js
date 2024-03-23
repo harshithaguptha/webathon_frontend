@@ -4,6 +4,8 @@ import Nav from './Nav';
 function Help() {
     return (
         <div className='flex justify-centre mr-40'>
+
+            
             <Nav />
             <div className="flex justify-center hover:scale-105 duration-300 ml-60 mr-20 pt-40 bg-amber-50-fill  pb-60 pr-10">
                 <div className=" p-6 border-2 border-gray-300 rounded-lg bg-amber-700  hover:shadow-lg shadow-md">
