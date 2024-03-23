@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 // import Home from './Home';
 // import { IoMdContact } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
+import './Nav.css'
 
 function Nav(){
 	const navigate = useNavigate();
@@ -42,7 +43,7 @@ function Nav(){
 	   {/* </div> */}
 		<div class="navbar-end">
 			
-		<a class="navbar-item text-xl text-white"><button onClick={isnavigate}>Reference</button></a>
+		<a class="navbar-item text-xl text-white "><button onClick={isnavigate}>Reference</button></a>
 		{/* <a class="navbar-item "><button onClick={isnavigate2}><I </button></a> */}
 		<a class="navbar-item text-xl text-white"><button onClick={isnavigate3}>About</button></a>
 		<a class="navbar-item text-xl text-white "><button onClick={isnavigate5}>Community</button></a>

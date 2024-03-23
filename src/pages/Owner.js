@@ -10,18 +10,18 @@ function Owner() {
     </div>
     <div className='pt-16 pl-80 flex flex-col items-center justify-center gap-8'>
     <a href="http://localhost:3000/Owndet">
-  <div className="card hover:bg-gray-400 hover:shadow-lg shadow-md transform transition-transform hover:scale-105 p-4 w-64 h-52 flex flex-col justify-center items-center bg-amber-700 border border-gray-300 rounded-3xl">
+  <div className="card hover:bg-gray-400 hover:shadow-lg shadow-md transform transition-transform hover:scale-105 duration-300 p-4 w-64 h-52 flex flex-col justify-center items-center bg-amber-700 border border-gray-300 rounded-3xl">
     <div className="card-body">
-      <h2 className="card-header text-3xl text-center ">Owner</h2>
-      <h2 className="card-header text-3xl text-center pb-8">Details</h2>
+      <h2 className="card-header text-3xl text-center  ">Owner</h2>
+      <h2 className="card-header text-3xl text-center  pb-8">Details</h2>
       <div className="absolute bottom-0 right-0 mr-4 mb-4 pr-4">
-      <HiOutlineArrowLongRight className="text-4xl hover:text-blue-950 " />
+      <HiOutlineArrowLongRight className="text-4xl text-white hover:text-blue-950 " />
     </div>
     </div>
   </div>
 </a>
 <a href="http://localhost:3000/Petdetails">
-  <div className="card hover:bg-gray-400 hover:shadow-lg shadow-md transform transition-transform hover:scale-105 p-4 w-64 h-52 flex flex-col justify-center items-center bg-amber-700 border border-gray-300 rounded-3xl">
+  <div className="card hover:bg-gray-400 hover:shadow-lg shadow-md transform transition-transform hover:scale-105 duration-300 p-4 w-64 h-52 flex flex-col justify-center items-center bg-amber-700 border border-gray-300 rounded-3xl">
     <div className="card-body">
       <h2 className="card-header text-3xl text-center ">Pet</h2>
       <h2 className="card-header text-3xl text-center pb-8">Details</h2>
@@ -32,7 +32,7 @@ function Owner() {
   </div>
 </a>
 <a href="http://localhost:3000/Petschedule">
-  <div className="card hover:bg-gray-400 hover:shadow-lg shadow-md transform transition-transform hover:scale-105 p-4 w-64 h-52 flex flex-col justify-center items-center bg-amber-700 border border-gray-300 rounded-3xl">
+  <div className="card hover:bg-gray-400 hover:shadow-lg shadow-md transform transition-transform hover:scale-105 duration-300 p-4 w-64 h-52 flex flex-col justify-center items-center bg-amber-700 border border-gray-300 rounded-3xl">
     <div className="card-body">
       <h2 className="card-header text-3xl text-center ">Pet</h2>
       <h2 className="card-header text-3xl text-center pb-8">Schedules</h2>
