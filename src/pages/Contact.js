@@ -23,17 +23,17 @@ function Contact() {
       <div className="flex-col ml-20 ">
       <div className="flex items-center space-x-4 mb-3 text-black">
       <FaSquareEnvelope size={20}/>
-        <p className="text-lg">petlove@gmail.com</p>
+        <p className="text-lg">furryfam@gmail.com</p>
       </div>
       <div className="flex items-center space-x-4 mb-3 text-black">
       <FiPhoneCall size={20}/>
-        <p className="text-lg">7981502524</p>
+        <p className="text-lg">9876543245</p>
       </div>
       <div className="flex items-center space-x-4 mb-3 text-black">
       {/* <a href="https://www.instagram.com/harshanka_tirumalsetti?igsh=MWV0Z2t0dGwwZWk1bg=="/> */}
       <FaInstagramSquare  size={20}/>
         {/* <p className="text-lg">@harshanka_tirumalsetti</p> */}
-        <a href="https://www.instagram.com/petsittersinternational?igsh=MXd4eGRjb2ZmcTAwdA==" target="_blank" rel="noopener noreferrer" className="text-lg">@pet_lovers</a>
+        <a href="https://www.instagram.com/petsittersinternational?igsh=MXd4eGRjb2ZmcTAwdA==" target="_blank" rel="noopener noreferrer" className="text-lg">@furry_fam</a>
       </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ function Nav(){
         <div>
           <div class="navbar bg-gray-600 py-2 fixed w-full top-0 z-10">
 		  <div>
-		  <a class="navbar-item text-xl text-white"><button onClick={isnavigate6}>Furry Fam</button></a>
+		  <a class="navbar-item text-xl text-white font-semibold"><button onClick={isnavigate6}>Furry Fam</button></a>
 		  </div>
 		<div class="navbar-end">
 			

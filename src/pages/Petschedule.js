@@ -10,7 +10,7 @@ function PetSchedule() {
 
   const onSubmit = (data) => {
     // Handle form submission (e.g., send data to backend)
-    navigate("/Dashboard");
+    navigate("/Profileowner");
   };
 
   return (

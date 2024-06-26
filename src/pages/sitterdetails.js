@@ -20,7 +20,7 @@ function PetSitterForm() {
       );
       console.log(response.data);
       // Redirect to profile page or any other appropriate page after successful submission
-      navigate("/Profileowner");
+      navigate("/Profilesitter");
     } catch (error) {
       console.error("Error saving pet sitter:", error.response.data);
       // Handle error response from the backend

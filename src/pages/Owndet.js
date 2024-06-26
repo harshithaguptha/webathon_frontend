@@ -9,7 +9,7 @@ function Owndet() {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (data) => {
-    navigate("/Dashboard");
+    navigate("/Profileowner");
   };
 
   return (
@@ -80,6 +80,7 @@ function Owndet() {
               <button
                 type="submit"
                 className="btn w-full text-white bg-yellow-800 hover:bg-yellow-700"
+
               >
                 Submit
               </button>

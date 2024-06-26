@@ -19,10 +19,11 @@ import Conandbook from './pages/Conandbook';
 import Behav from './pages/Behav';
 import Petcare from './pages/Petcare';
 import Emergency from './pages/Emergency';
+import Payments from './pages/Payments'
 
 function App() {
   return (
-    <div >
+    <div className='' >
       <Routes>
           <Route element={<Dashboard/>}path="/"></Route>
           <Route element={<Login1/>}path="/Loginowners"></Route>
@@ -43,7 +44,7 @@ function App() {
           <Route element={<Emergency/>}path="/Emergency"></Route>
           <Route element={<Petcare/>}path="/Petcare"></Route>
           <Route element={<Behav/>}path="/Behaviour"></Route>
-
+          <Route element={<Payments/>}path="/Payments"></Route>
 
 
       </Routes>

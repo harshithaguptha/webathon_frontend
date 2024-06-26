@@ -9,7 +9,7 @@ function Petdetails() {
   const { register, handleSubmit, formState: { errors } } = useForm();
 
   const onSubmit = (data) => {
-    navigate("/Dashboard");
+    navigate("/Profileowner");
   };
 
   return (

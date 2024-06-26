@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // import Home from './Home';
 // import { IoMdContact } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-import './Nav.css'
+
 
 function Nav(){
 	const navigate = useNavigate();
@@ -27,13 +27,16 @@ function Nav(){
 	const isnavigate6=()=>{
         navigate('/');
     }
+	const isnavigate7=()=>{
+		navigate('/Payments')
+	}
   
 
     return(
         <div>
           <div class="navbar bg-gray-600 py-2 fixed w-full top-0 z-10">
 		  <div>
-		  <a class="navbar-item text-xl text-white"><button onClick={isnavigate6}>Furry Fam</button></a>
+		  <a class="navbar-item text-xl font-semibold text-white"><button onClick={isnavigate6}>Furry Fam</button></a>
 		  </div>
 		{/* <div class="navbar-center"> */}
 			
@@ -43,9 +46,11 @@ function Nav(){
 	   {/* </div> */}
 		<div class="navbar-end">
 			
-		<a class="navbar-item text-xl text-white "><button onClick={isnavigate}>Reference</button></a>
+		<a class="navbar-item text-xl text-white "><button onClick={isnavigate}>Preferences</button></a>
 		{/* <a class="navbar-item "><button onClick={isnavigate2}><I </button></a> */}
 		<a class="navbar-item text-xl text-white"><button onClick={isnavigate3}>About</button></a>
+		<a class="navbar-item text-xl text-white "><button onClick={isnavigate7}>Payments</button></a>
+
 		<a class="navbar-item text-xl text-white "><button onClick={isnavigate5}>Community</button></a>
 		<a class="navbar-item text-xl text-white"><button onClick={isnavigate1}>Help</button></a>
 		<a class="navbar-item text-xl text-white "><button onClick={isnavigate2}>Contact us</button></a>
